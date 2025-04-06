@@ -1,6 +1,6 @@
 import React from "react";
 import TaskItem from "./TaskItem";
-import { Droppable } from "react-beautiful-dnd";
+import {Droppable} from "@hello-pangea/dnd";
 
 const TaskList = ({ tasks, filter, toggleComplete, deleteTask }) => {
   const filteredTasks = tasks.filter((task) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Draggable } from "react-beautiful-dnd";
+import { Draggable } from "@hello-pangea/dnd";
 import { FaTrash, FaCheck } from "react-icons/fa";
 
 const TaskItem = ({ task, index, toggleComplete, deleteTask }) => {
@@ -28,3 +28,4 @@ const TaskItem = ({ task, index, toggleComplete, deleteTask }) => {
 };
 
 export default TaskItem;
+

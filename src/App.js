@@ -3,7 +3,9 @@ import TaskInput from "./components/TaskInput";
 import TaskList from "./components/TaskList";
 import Filters from "./components/Filters";
 import DarkModeToggle from "./components/DarkModeToggle";
-import { DragDropContext } from "react-beautiful-dnd";
+import { DragDropContext } from "@hello-pangea/dnd";
+
+
 import { loadTasks, saveTasks } from "./utils/localStorage";
 import "./styles/global.css";
 
